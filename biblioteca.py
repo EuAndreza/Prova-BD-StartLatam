@@ -27,7 +27,7 @@ def deletar_livro(x):
 		(x,))
 	conectar.commit()
 
-acesso = input('primeiro acesso? S para sim N para nao\n**').lower()
+acesso = input('Seu banco de dados já existe? S para sim N para nao\n**').lower()
 if acesso == 's':
 	criar_tabela()
 else:
